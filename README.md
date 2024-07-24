@@ -11,8 +11,11 @@ Getting Started
 You can control the direction of the snake using the arrow keys on your keyboard:
 
 Up: Press the up arrow key to move the snake upwards.
+
 Down: Press the down arrow key to move the snake downwards.
+
 Left: Press the left arrow key to move the snake to the left.
+
 Right: Press the right arrow key to move the snake to the right.
 
 *This game was inspired by the classic Snake game that was popular in the late 1990s. Thanks to the developers of that game for providing the inspiration for this project.*
