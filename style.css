@@ -1,11 +1,51 @@
-html, body {
-  height:          100%;
-  margin:          0;
-  padding:         0;
-  background:      #121212;
-  text-align:      center;
-  color:         aliceblue;
-  display:         flex;
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: url("background.jpg");
+  background-size: contain;
+  display: flex;
   justify-content: center;
-  align-items:     center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+  position: relative;
+}
+
+#gameCanvas {
+  border: 5px solid #472020;
+  background-color: #ffc888;
+}
+
+#playButton {
+  background-color:aquamarine;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -3rem; /* Adjust this value if needed */
+}
+
+#playButton:hover{
+  background-color:cyan;
+}
+
+.game-over {
+  display: none;
+  font-size: 24px;
+  color: black;
+  margin-top: 2rem;
+}
+
+.score-board {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.snake-head {
+  background-color: blue;
 }
