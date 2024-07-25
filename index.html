@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Snake</title>
-    <link rel="stylesheet" href="style.css">
-    <script>require=()=>({}); module={}; module.exports=()=>({})</script>
-  </head>
-  <body>
-    <canvas id="canvas" width="700" height="500"></canvas>
-    <script src="ground.js"></script>
-    <script src="snake.js"></script>
-    <script src="main.js"></script>
-  <script src="cli.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="score-board">
+      <span>Score: </span><span id="score">0</span>
+    </div>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <button id="playButton">Play</button>
+    <div id="gameOver" class="game-over">Game Over</div>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
