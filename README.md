@@ -23,6 +23,7 @@ Right: Press the right arrow key to move the snake to the right.<br>
 
 <hr>
 *Here is the preview of the project*<br>
+https://github.com/user-attachments/assets/4633bc3e-cf4c-4cab-bcfd-8c0519563b0f
 
 
 /
